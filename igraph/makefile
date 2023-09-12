@@ -4,8 +4,8 @@
 #
 
 CXX=g++
-CXX_FLAGS=-O3 --std=c++11 -I /data/matteoL/igraph/include/igraph
-LD_FLAGS=-L /data/matteoL/igraph/lib -ligraph -fopenmp
+CXX_FLAGS=-O3 --std=c++11 -I /Users/matteo/igraph/include/igraph
+LD_FLAGS=-L /Users/matteo/igraph/lib -ligraph #-fopenmp
 
 .PHONY: clean
 
