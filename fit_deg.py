@@ -12,7 +12,7 @@ import subprocess
 f = open('results/fit_deg.tsv', 'w')
 f.write('contract_id\talpha\txmin\tL\tD\n')
 for i in range(0, 100):
-    stats = pd.read_csv(f'./igraph/results/stats_{i}.csv.gz', compression='gzip')
+    stats = pd.read_csv(f'results/stats_{i}.csv.xz', compression='xz')
     largest_comp_id = stats.wcc_id.value_counts().index[0]
     data = stats[stats.wcc_id == largest_comp_id].degree.values
     np.savetxt(f'tmp/tmp_{i}.out', data, fmt="%.6f", delimiter='\n')
