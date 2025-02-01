@@ -4,13 +4,13 @@ This repository contains code for reproducing the results presented in the paper
 
 # Dataset
 
-All code provided here has been developed to analyze ERC-20 token transfer data available in <a href="https://zenodo.org/records/10644077">this repository</a>
+All code has been developed to analyze ERC-20 token transfer data available in <a href="https://zenodo.org/records/10644077">this repository</a>.
 
 # Cite this work  
 
 If the code and data included in this repository have been useful, please cite the following articles in your work.
 
-<code>
+```
 @article{LoporchioMBR24,
   title        = "Comparing Ethereum fungible and non-fungible tokens: an analysis of transfer networks",
   author       = "Loporchio, Matteo and
@@ -23,9 +23,7 @@ If the code and data included in this repository have been useful, please cite t
   pages        = "72",
   year         = 2024
 }
-</code>
 
-</code>
 @incollection{Loporchio2024-gb,
   title     = "Analysis and characterization of {ERC-20} token network
                topologies",
@@ -38,5 +36,5 @@ If the code and data included in this repository have been useful, please cite t
   year      =  2024,
   address   = "Cham"
 }
-</code>
+```
 
