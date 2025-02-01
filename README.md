@@ -11,19 +11,6 @@ All code has been developed to analyze ERC-20 token transfer data available in <
 If the code and data included in this repository have been useful, please cite the following articles in your work.
 
 ```
-@article{LoporchioMBR24,
-  title        = "Comparing Ethereum fungible and non-fungible tokens: an analysis of transfer networks",
-  author       = "Loporchio, Matteo and
-                  Di Francesco Maesa, Damiano and
-                  Bernasconi, Anna and
-                  Ricci, Laura",
-  journal      = "Applied Network Science",
-  volume       = "9",
-  number       = "1",
-  pages        = "72",
-  year         = 2024
-}
-
 @incollection{Loporchio2024-gb,
   title     = "Analysis and characterization of {ERC-20} token network
                topologies",
