@@ -8,7 +8,7 @@ All code has been developed to analyze ERC-20 token transfer data available in <
 
 # Cite this work  
 
-If the code and data included in this repository have been useful, please cite the following articles in your work.
+If the code and data included in this repository have been useful, please cite the following article in your work.
 
 ```
 @incollection{Loporchio2024-gb,
